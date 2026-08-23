@@ -1,0 +1,76 @@
+<svg width="560" height="300" viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', Consolas, monospace">
+  <style>
+    .bg { fill: #0d1117; }
+    .border { fill: none; stroke: #30363d; stroke-width: 1; }
+    .prompt { fill: #58a6ff; font-size: 14px; font-weight: bold; }
+    .label { fill: #7ee787; font-size: 13px; font-weight: bold; }
+    .value { fill: #c9d1d9; font-size: 13px; }
+    .dim { fill: #8b949e; font-size: 12px; }
+    .line {
+      opacity: 0;
+      animation: typeIn 0.4s ease-out forwards;
+    }
+    @keyframes typeIn {
+      from { opacity: 0; transform: translateX(-6px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    .l1  { animation-delay: 0.0s; }
+    .l2  { animation-delay: 0.3s; }
+    .l3  { animation-delay: 0.6s; }
+    .l4  { animation-delay: 0.9s; }
+    .l5  { animation-delay: 1.2s; }
+    .l6  { animation-delay: 1.5s; }
+    .l7  { animation-delay: 1.8s; }
+    .l8  { animation-delay: 2.1s; }
+    .l9  { animation-delay: 2.4s; }
+    .l10 { animation-delay: 2.7s; }
+    .cursor {
+      fill: #7ee787;
+      animation: blink 1s step-end infinite;
+      animation-delay: 3s;
+    }
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <rect class="bg" width="560" height="300" rx="8"/>
+  <rect class="border" x="0.5" y="0.5" width="559" height="299" rx="8"/>
+
+  <!-- window dots -->
+  <circle cx="20" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="20" r="6" fill="#27c93f"/>
+  <text x="280" y="24" text-anchor="middle" class="dim">sharon@github: ~</text>
+
+  <g transform="translate(24, 60)">
+    <text class="line l1"><tspan class="prompt">sharon@dev</tspan><tspan class="value">:~$ whoami</tspan></text>
+
+    <text y="30" class="line l2 label">Name</text>
+    <text y="30" x="140" class="line l2 value">Sharon N.</text>
+
+    <text y="55" class="line l3 label">Role</text>
+    <text y="55" x="140" class="line l3 value">Customer Support &amp; Network Ops · Flink Technologies</text>
+
+    <text y="80" class="line l4 label">Education</text>
+    <text y="80" x="140" class="line l4 value">BBIT, JKUAT (2024)</text>
+
+    <text y="105" class="line l5 label">Certification</text>
+    <text y="105" x="140" class="line l5 value">CPA Kenya — Intermediate Level, KASNEB</text>
+
+    <text y="130" class="line l6 label">Stack</text>
+    <text y="130" x="140" class="line l6 value">Python · SQL · Excel · Network Monitoring (RADMAN, SMART OLT)</text>
+
+    <text y="155" class="line l7 label">Focus</text>
+    <text y="155" x="140" class="line l7 value">Technology × Data × People</text>
+
+    <text y="180" class="line l8 label">Location</text>
+    <text y="180" x="140" class="line l8 value">Nairobi, Kenya</text>
+
+    <text y="205" class="line l9 label">Currently</text>
+    <text y="205" x="140" class="line l9 value">Job hunting + prepping for grad school (MS Business Analytics)</text>
+
+    <text y="235" class="line l10"><tspan class="prompt">sharon@dev</tspan><tspan class="value">:~$ </tspan><tspan class="cursor">█</tspan></text>
+  </g>
+</svg>

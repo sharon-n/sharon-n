@@ -1,22 +1,19 @@
-### Hi there, I'm Sharon 👋
+<div align="center">
 
-💻 Customer Service & IT professional | Nairobi, Kenya
-📊 BBIT (JKUAT) | Pursuing CPA | Networking & Data Analysis
-🌱 Exploring Business Analytics
+<img src="avi-ascii.svg" width="320" alt="ascii portrait"/>
 
----
+<img src="info-card.svg" width="560" alt="info card"/>
 
-### 📈 GitHub Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=sharon-n&show_icons=true&theme=radical)
-![Streak](https://streak-stats.demolab.com/?user=sharon-n&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sharon-n&layout=compact&theme=radical)
+### contribution activity
 
----
+<img src="contrib-heatmap.svg" width="800" alt="contribution heatmap"/>
 
-### 🛠️ Skills
-Python • Excel • SQL • Networking (RADMAN, SMART OLT) • Customer Service • Financial Analysis
+</div>
 
 ---
 
-### 📫 Connect with me
-[LinkedIn](#) | [Email](#)
+<div align="center">
+
+📍 Nairobi, Kenya &nbsp;·&nbsp; 🎓 BBIT, JKUAT &nbsp;·&nbsp; 📊 CPA Kenya (Intermediate) &nbsp;·&nbsp; 🐍 Python · SQL · Excel
+
+</div>
