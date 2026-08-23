@@ -69,7 +69,7 @@
     <text y="180" x="140" class="line l8 value">Nairobi, Kenya</text>
 
     <text y="205" class="line l9 label">Currently</text>
-    <text y="205" x="140" class="line l9 value">Job hunting + prepping for grad school (MS Business Analytics)</text>
+    <text y="205" x="140" class="line l9 value">Job hunting </text>
 
     <text y="235" class="line l10"><tspan class="prompt">sharon@dev</tspan><tspan class="value">:~$ </tspan><tspan class="cursor">█</tspan></text>
   </g>
