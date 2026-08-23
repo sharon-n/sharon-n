@@ -7,7 +7,7 @@ SVGs but still runs CSS keyframes / SMIL, so the animation is done purely in CSS
 
 Usage:
     pip install pillow --break-system-packages
-    python generate_ascii.py your_photo.jpg avi-ascii.svg
+    python generate_ascii.py rrrrrrrr.png avi-ascii.svg
 
 Then embed the output in your README with:
     <img src="avi-ascii.svg" width="320" alt="ascii portrait"/>
