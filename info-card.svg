@@ -6,32 +6,43 @@
     .label { fill: #7ee787; font-size: 13px; font-weight: bold; }
     .value { fill: #c9d1d9; font-size: 13px; }
     .dim { fill: #8b949e; font-size: 12px; }
+    /* Visible by default — safe fallback if the animation doesn't
+       run (image proxies, reduced-motion settings, some renderers).
+       Everything inside the media query below is a progressive
+       enhancement only, never required for the card to show up. */
     .line {
-      opacity: 0;
-      animation: typeIn 0.4s ease-out forwards;
+      opacity: 1;
     }
-    @keyframes typeIn {
-      from { opacity: 0; transform: translateX(-6px); }
-      to   { opacity: 1; transform: translateX(0); }
-    }
-    .l1  { animation-delay: 0.0s; }
-    .l2  { animation-delay: 0.3s; }
-    .l3  { animation-delay: 0.6s; }
-    .l4  { animation-delay: 0.9s; }
-    .l5  { animation-delay: 1.2s; }
-    .l6  { animation-delay: 1.5s; }
-    .l7  { animation-delay: 1.8s; }
-    .l8  { animation-delay: 2.1s; }
-    .l9  { animation-delay: 2.4s; }
-    .l10 { animation-delay: 2.7s; }
     .cursor {
       fill: #7ee787;
-      animation: blink 1s step-end infinite;
-      animation-delay: 3s;
     }
-    @keyframes blink {
-      0%, 50% { opacity: 1; }
-      51%, 100% { opacity: 0; }
+    @media (prefers-reduced-motion: no-preference) {
+      .line {
+        opacity: 0;
+        animation: typeIn 0.4s ease-out forwards;
+      }
+      @keyframes typeIn {
+        from { opacity: 0; transform: translateX(-6px); }
+        to   { opacity: 1; transform: translateX(0); }
+      }
+      .l1  { animation-delay: 0.0s; }
+      .l2  { animation-delay: 0.3s; }
+      .l3  { animation-delay: 0.6s; }
+      .l4  { animation-delay: 0.9s; }
+      .l5  { animation-delay: 1.2s; }
+      .l6  { animation-delay: 1.5s; }
+      .l7  { animation-delay: 1.8s; }
+      .l8  { animation-delay: 2.1s; }
+      .l9  { animation-delay: 2.4s; }
+      .l10 { animation-delay: 2.7s; }
+      .cursor {
+        animation: blink 1s step-end infinite;
+        animation-delay: 3s;
+      }
+      @keyframes blink {
+        0%, 50% { opacity: 1; }
+        51%, 100% { opacity: 0; }
+      }
     }
   </style>
 
@@ -69,7 +80,7 @@
     <text y="180" x="140" class="line l8 value">Nairobi, Kenya</text>
 
     <text y="205" class="line l9 label">Currently</text>
-    <text y="205" x="140" class="line l9 value">Job hunting </text>
+    <text y="205" x="140" class="line l9 value">Job hunting + prepping for grad school (MS Business Analytics)</text>
 
     <text y="235" class="line l10"><tspan class="prompt">sharon@dev</tspan><tspan class="value">:~$ </tspan><tspan class="cursor">█</tspan></text>
   </g>

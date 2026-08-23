@@ -7,14 +7,21 @@
       fill: #7ee787;
       white-space: pre;
     }
+    /* Visible by default — safe fallback if the animation doesn't
+       run (image proxies, reduced-motion settings, some renderers).
+       The typing effect below is a progressive enhancement only. */
     .row {
-      opacity: 0;
-      animation: fadeIn 0.3s ease-out forwards;
+      opacity: 1;
     }
-    @keyframes fadeIn {
-      to { opacity: 1; }
-    }
-    .r0 { animation-delay: 0.0s; }
+    @media (prefers-reduced-motion: no-preference) {
+      .row {
+        opacity: 0;
+        animation: fadeIn 0.3s ease-out forwards;
+      }
+      @keyframes fadeIn {
+        to { opacity: 1; }
+      }
+      .r0 { animation-delay: 0.0s; }
 .r1 { animation-delay: 0.05s; }
 .r2 { animation-delay: 0.1s; }
 .r3 { animation-delay: 0.15s; }
@@ -80,6 +87,7 @@
 .r63 { animation-delay: 3.15s; }
 .r64 { animation-delay: 3.2s; }
 .r65 { animation-delay: 3.25s; }
+    }
   </style>
   <text x="0" y="10" class="row r0">................................................................................</text>
   <text x="0" y="20" class="row r1">................................................................................</text>

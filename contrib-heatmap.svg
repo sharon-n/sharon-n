@@ -1,0 +1,752 @@
+<svg width="745" height="101" viewBox="0 0 745 101" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg { background: #0d1117; }
+    /* Visible by default — this is the safe fallback if animations
+       don't run (image proxies, reduced-motion settings, some
+       renderers). The animation below is a progressive enhancement
+       only, never required for the content to show up. */
+    .cell {
+      opacity: 1;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .cell {
+        opacity: 0;
+        transform: translate(-6px, -6px);
+        animation: slideIn 0.35s ease-out forwards;
+      }
+      @keyframes slideIn {
+        to { opacity: 1; transform: translate(0, 0); }
+      }
+      .c0 { animation-delay: 0.0s; }
+.c1 { animation-delay: 0.012s; }
+.c2 { animation-delay: 0.024s; }
+.c3 { animation-delay: 0.036s; }
+.c4 { animation-delay: 0.048s; }
+.c5 { animation-delay: 0.06s; }
+.c6 { animation-delay: 0.072s; }
+.c7 { animation-delay: 0.084s; }
+.c8 { animation-delay: 0.096s; }
+.c9 { animation-delay: 0.108s; }
+.c10 { animation-delay: 0.12s; }
+.c11 { animation-delay: 0.132s; }
+.c12 { animation-delay: 0.144s; }
+.c13 { animation-delay: 0.156s; }
+.c14 { animation-delay: 0.168s; }
+.c15 { animation-delay: 0.18s; }
+.c16 { animation-delay: 0.192s; }
+.c17 { animation-delay: 0.204s; }
+.c18 { animation-delay: 0.216s; }
+.c19 { animation-delay: 0.228s; }
+.c20 { animation-delay: 0.24s; }
+.c21 { animation-delay: 0.252s; }
+.c22 { animation-delay: 0.264s; }
+.c23 { animation-delay: 0.276s; }
+.c24 { animation-delay: 0.288s; }
+.c25 { animation-delay: 0.3s; }
+.c26 { animation-delay: 0.312s; }
+.c27 { animation-delay: 0.324s; }
+.c28 { animation-delay: 0.336s; }
+.c29 { animation-delay: 0.348s; }
+.c30 { animation-delay: 0.36s; }
+.c31 { animation-delay: 0.372s; }
+.c32 { animation-delay: 0.384s; }
+.c33 { animation-delay: 0.396s; }
+.c34 { animation-delay: 0.408s; }
+.c35 { animation-delay: 0.42s; }
+.c36 { animation-delay: 0.432s; }
+.c37 { animation-delay: 0.444s; }
+.c38 { animation-delay: 0.456s; }
+.c39 { animation-delay: 0.468s; }
+.c40 { animation-delay: 0.48s; }
+.c41 { animation-delay: 0.492s; }
+.c42 { animation-delay: 0.504s; }
+.c43 { animation-delay: 0.516s; }
+.c44 { animation-delay: 0.528s; }
+.c45 { animation-delay: 0.54s; }
+.c46 { animation-delay: 0.552s; }
+.c47 { animation-delay: 0.564s; }
+.c48 { animation-delay: 0.576s; }
+.c49 { animation-delay: 0.588s; }
+.c50 { animation-delay: 0.6s; }
+.c51 { animation-delay: 0.612s; }
+.c52 { animation-delay: 0.624s; }
+.c53 { animation-delay: 0.636s; }
+.c54 { animation-delay: 0.648s; }
+.c55 { animation-delay: 0.66s; }
+.c56 { animation-delay: 0.672s; }
+.c57 { animation-delay: 0.684s; }
+.c58 { animation-delay: 0.696s; }
+.c59 { animation-delay: 0.708s; }
+.c60 { animation-delay: 0.72s; }
+.c61 { animation-delay: 0.732s; }
+.c62 { animation-delay: 0.744s; }
+.c63 { animation-delay: 0.756s; }
+.c64 { animation-delay: 0.768s; }
+.c65 { animation-delay: 0.78s; }
+.c66 { animation-delay: 0.792s; }
+.c67 { animation-delay: 0.804s; }
+.c68 { animation-delay: 0.816s; }
+.c69 { animation-delay: 0.828s; }
+.c70 { animation-delay: 0.84s; }
+.c71 { animation-delay: 0.852s; }
+.c72 { animation-delay: 0.864s; }
+.c73 { animation-delay: 0.876s; }
+.c74 { animation-delay: 0.888s; }
+.c75 { animation-delay: 0.9s; }
+.c76 { animation-delay: 0.912s; }
+.c77 { animation-delay: 0.924s; }
+.c78 { animation-delay: 0.936s; }
+.c79 { animation-delay: 0.948s; }
+.c80 { animation-delay: 0.96s; }
+.c81 { animation-delay: 0.972s; }
+.c82 { animation-delay: 0.984s; }
+.c83 { animation-delay: 0.996s; }
+.c84 { animation-delay: 1.008s; }
+.c85 { animation-delay: 1.02s; }
+.c86 { animation-delay: 1.032s; }
+.c87 { animation-delay: 1.044s; }
+.c88 { animation-delay: 1.056s; }
+.c89 { animation-delay: 1.068s; }
+.c90 { animation-delay: 1.08s; }
+.c91 { animation-delay: 1.092s; }
+.c92 { animation-delay: 1.104s; }
+.c93 { animation-delay: 1.116s; }
+.c94 { animation-delay: 1.128s; }
+.c95 { animation-delay: 1.14s; }
+.c96 { animation-delay: 1.152s; }
+.c97 { animation-delay: 1.164s; }
+.c98 { animation-delay: 1.176s; }
+.c99 { animation-delay: 1.188s; }
+.c100 { animation-delay: 1.2s; }
+.c101 { animation-delay: 1.212s; }
+.c102 { animation-delay: 1.224s; }
+.c103 { animation-delay: 1.236s; }
+.c104 { animation-delay: 1.248s; }
+.c105 { animation-delay: 1.26s; }
+.c106 { animation-delay: 1.272s; }
+.c107 { animation-delay: 1.284s; }
+.c108 { animation-delay: 1.296s; }
+.c109 { animation-delay: 1.308s; }
+.c110 { animation-delay: 1.32s; }
+.c111 { animation-delay: 1.332s; }
+.c112 { animation-delay: 1.344s; }
+.c113 { animation-delay: 1.356s; }
+.c114 { animation-delay: 1.368s; }
+.c115 { animation-delay: 1.38s; }
+.c116 { animation-delay: 1.392s; }
+.c117 { animation-delay: 1.404s; }
+.c118 { animation-delay: 1.416s; }
+.c119 { animation-delay: 1.428s; }
+.c120 { animation-delay: 1.44s; }
+.c121 { animation-delay: 1.452s; }
+.c122 { animation-delay: 1.464s; }
+.c123 { animation-delay: 1.476s; }
+.c124 { animation-delay: 1.488s; }
+.c125 { animation-delay: 1.5s; }
+.c126 { animation-delay: 1.512s; }
+.c127 { animation-delay: 1.524s; }
+.c128 { animation-delay: 1.536s; }
+.c129 { animation-delay: 1.548s; }
+.c130 { animation-delay: 1.56s; }
+.c131 { animation-delay: 1.572s; }
+.c132 { animation-delay: 1.584s; }
+.c133 { animation-delay: 1.596s; }
+.c134 { animation-delay: 1.608s; }
+.c135 { animation-delay: 1.62s; }
+.c136 { animation-delay: 1.632s; }
+.c137 { animation-delay: 1.644s; }
+.c138 { animation-delay: 1.656s; }
+.c139 { animation-delay: 1.668s; }
+.c140 { animation-delay: 1.68s; }
+.c141 { animation-delay: 1.692s; }
+.c142 { animation-delay: 1.704s; }
+.c143 { animation-delay: 1.716s; }
+.c144 { animation-delay: 1.728s; }
+.c145 { animation-delay: 1.74s; }
+.c146 { animation-delay: 1.752s; }
+.c147 { animation-delay: 1.764s; }
+.c148 { animation-delay: 1.776s; }
+.c149 { animation-delay: 1.788s; }
+.c150 { animation-delay: 1.8s; }
+.c151 { animation-delay: 1.812s; }
+.c152 { animation-delay: 1.824s; }
+.c153 { animation-delay: 1.836s; }
+.c154 { animation-delay: 1.848s; }
+.c155 { animation-delay: 1.86s; }
+.c156 { animation-delay: 1.872s; }
+.c157 { animation-delay: 1.884s; }
+.c158 { animation-delay: 1.896s; }
+.c159 { animation-delay: 1.908s; }
+.c160 { animation-delay: 1.92s; }
+.c161 { animation-delay: 1.932s; }
+.c162 { animation-delay: 1.944s; }
+.c163 { animation-delay: 1.956s; }
+.c164 { animation-delay: 1.968s; }
+.c165 { animation-delay: 1.98s; }
+.c166 { animation-delay: 1.992s; }
+.c167 { animation-delay: 2.004s; }
+.c168 { animation-delay: 2.016s; }
+.c169 { animation-delay: 2.028s; }
+.c170 { animation-delay: 2.04s; }
+.c171 { animation-delay: 2.052s; }
+.c172 { animation-delay: 2.064s; }
+.c173 { animation-delay: 2.076s; }
+.c174 { animation-delay: 2.088s; }
+.c175 { animation-delay: 2.1s; }
+.c176 { animation-delay: 2.112s; }
+.c177 { animation-delay: 2.124s; }
+.c178 { animation-delay: 2.136s; }
+.c179 { animation-delay: 2.148s; }
+.c180 { animation-delay: 2.16s; }
+.c181 { animation-delay: 2.172s; }
+.c182 { animation-delay: 2.184s; }
+.c183 { animation-delay: 2.196s; }
+.c184 { animation-delay: 2.208s; }
+.c185 { animation-delay: 2.22s; }
+.c186 { animation-delay: 2.232s; }
+.c187 { animation-delay: 2.244s; }
+.c188 { animation-delay: 2.256s; }
+.c189 { animation-delay: 2.268s; }
+.c190 { animation-delay: 2.28s; }
+.c191 { animation-delay: 2.292s; }
+.c192 { animation-delay: 2.304s; }
+.c193 { animation-delay: 2.316s; }
+.c194 { animation-delay: 2.328s; }
+.c195 { animation-delay: 2.34s; }
+.c196 { animation-delay: 2.352s; }
+.c197 { animation-delay: 2.364s; }
+.c198 { animation-delay: 2.376s; }
+.c199 { animation-delay: 2.388s; }
+.c200 { animation-delay: 2.4s; }
+.c201 { animation-delay: 2.412s; }
+.c202 { animation-delay: 2.424s; }
+.c203 { animation-delay: 2.436s; }
+.c204 { animation-delay: 2.448s; }
+.c205 { animation-delay: 2.46s; }
+.c206 { animation-delay: 2.472s; }
+.c207 { animation-delay: 2.484s; }
+.c208 { animation-delay: 2.496s; }
+.c209 { animation-delay: 2.508s; }
+.c210 { animation-delay: 2.52s; }
+.c211 { animation-delay: 2.532s; }
+.c212 { animation-delay: 2.544s; }
+.c213 { animation-delay: 2.556s; }
+.c214 { animation-delay: 2.568s; }
+.c215 { animation-delay: 2.58s; }
+.c216 { animation-delay: 2.592s; }
+.c217 { animation-delay: 2.604s; }
+.c218 { animation-delay: 2.616s; }
+.c219 { animation-delay: 2.628s; }
+.c220 { animation-delay: 2.64s; }
+.c221 { animation-delay: 2.652s; }
+.c222 { animation-delay: 2.664s; }
+.c223 { animation-delay: 2.676s; }
+.c224 { animation-delay: 2.688s; }
+.c225 { animation-delay: 2.7s; }
+.c226 { animation-delay: 2.712s; }
+.c227 { animation-delay: 2.724s; }
+.c228 { animation-delay: 2.736s; }
+.c229 { animation-delay: 2.748s; }
+.c230 { animation-delay: 2.76s; }
+.c231 { animation-delay: 2.772s; }
+.c232 { animation-delay: 2.784s; }
+.c233 { animation-delay: 2.796s; }
+.c234 { animation-delay: 2.808s; }
+.c235 { animation-delay: 2.82s; }
+.c236 { animation-delay: 2.832s; }
+.c237 { animation-delay: 2.844s; }
+.c238 { animation-delay: 2.856s; }
+.c239 { animation-delay: 2.868s; }
+.c240 { animation-delay: 2.88s; }
+.c241 { animation-delay: 2.892s; }
+.c242 { animation-delay: 2.904s; }
+.c243 { animation-delay: 2.916s; }
+.c244 { animation-delay: 2.928s; }
+.c245 { animation-delay: 2.94s; }
+.c246 { animation-delay: 2.952s; }
+.c247 { animation-delay: 2.964s; }
+.c248 { animation-delay: 2.976s; }
+.c249 { animation-delay: 2.988s; }
+.c250 { animation-delay: 3.0s; }
+.c251 { animation-delay: 3.012s; }
+.c252 { animation-delay: 3.024s; }
+.c253 { animation-delay: 3.036s; }
+.c254 { animation-delay: 3.048s; }
+.c255 { animation-delay: 3.06s; }
+.c256 { animation-delay: 3.072s; }
+.c257 { animation-delay: 3.084s; }
+.c258 { animation-delay: 3.096s; }
+.c259 { animation-delay: 3.108s; }
+.c260 { animation-delay: 3.12s; }
+.c261 { animation-delay: 3.132s; }
+.c262 { animation-delay: 3.144s; }
+.c263 { animation-delay: 3.156s; }
+.c264 { animation-delay: 3.168s; }
+.c265 { animation-delay: 3.18s; }
+.c266 { animation-delay: 3.192s; }
+.c267 { animation-delay: 3.204s; }
+.c268 { animation-delay: 3.216s; }
+.c269 { animation-delay: 3.228s; }
+.c270 { animation-delay: 3.24s; }
+.c271 { animation-delay: 3.252s; }
+.c272 { animation-delay: 3.264s; }
+.c273 { animation-delay: 3.276s; }
+.c274 { animation-delay: 3.288s; }
+.c275 { animation-delay: 3.3s; }
+.c276 { animation-delay: 3.312s; }
+.c277 { animation-delay: 3.324s; }
+.c278 { animation-delay: 3.336s; }
+.c279 { animation-delay: 3.348s; }
+.c280 { animation-delay: 3.36s; }
+.c281 { animation-delay: 3.372s; }
+.c282 { animation-delay: 3.384s; }
+.c283 { animation-delay: 3.396s; }
+.c284 { animation-delay: 3.408s; }
+.c285 { animation-delay: 3.42s; }
+.c286 { animation-delay: 3.432s; }
+.c287 { animation-delay: 3.444s; }
+.c288 { animation-delay: 3.456s; }
+.c289 { animation-delay: 3.468s; }
+.c290 { animation-delay: 3.48s; }
+.c291 { animation-delay: 3.492s; }
+.c292 { animation-delay: 3.504s; }
+.c293 { animation-delay: 3.516s; }
+.c294 { animation-delay: 3.528s; }
+.c295 { animation-delay: 3.54s; }
+.c296 { animation-delay: 3.552s; }
+.c297 { animation-delay: 3.564s; }
+.c298 { animation-delay: 3.576s; }
+.c299 { animation-delay: 3.588s; }
+.c300 { animation-delay: 3.6s; }
+.c301 { animation-delay: 3.612s; }
+.c302 { animation-delay: 3.624s; }
+.c303 { animation-delay: 3.636s; }
+.c304 { animation-delay: 3.648s; }
+.c305 { animation-delay: 3.66s; }
+.c306 { animation-delay: 3.672s; }
+.c307 { animation-delay: 3.684s; }
+.c308 { animation-delay: 3.696s; }
+.c309 { animation-delay: 3.708s; }
+.c310 { animation-delay: 3.72s; }
+.c311 { animation-delay: 3.732s; }
+.c312 { animation-delay: 3.744s; }
+.c313 { animation-delay: 3.756s; }
+.c314 { animation-delay: 3.768s; }
+.c315 { animation-delay: 3.78s; }
+.c316 { animation-delay: 3.792s; }
+.c317 { animation-delay: 3.804s; }
+.c318 { animation-delay: 3.816s; }
+.c319 { animation-delay: 3.828s; }
+.c320 { animation-delay: 3.84s; }
+.c321 { animation-delay: 3.852s; }
+.c322 { animation-delay: 3.864s; }
+.c323 { animation-delay: 3.876s; }
+.c324 { animation-delay: 3.888s; }
+.c325 { animation-delay: 3.9s; }
+.c326 { animation-delay: 3.912s; }
+.c327 { animation-delay: 3.924s; }
+.c328 { animation-delay: 3.936s; }
+.c329 { animation-delay: 3.948s; }
+.c330 { animation-delay: 3.96s; }
+.c331 { animation-delay: 3.972s; }
+.c332 { animation-delay: 3.984s; }
+.c333 { animation-delay: 3.996s; }
+.c334 { animation-delay: 4.008s; }
+.c335 { animation-delay: 4.02s; }
+.c336 { animation-delay: 4.032s; }
+.c337 { animation-delay: 4.044s; }
+.c338 { animation-delay: 4.056s; }
+.c339 { animation-delay: 4.068s; }
+.c340 { animation-delay: 4.08s; }
+.c341 { animation-delay: 4.092s; }
+.c342 { animation-delay: 4.104s; }
+.c343 { animation-delay: 4.116s; }
+.c344 { animation-delay: 4.128s; }
+.c345 { animation-delay: 4.14s; }
+.c346 { animation-delay: 4.152s; }
+.c347 { animation-delay: 4.164s; }
+.c348 { animation-delay: 4.176s; }
+.c349 { animation-delay: 4.188s; }
+.c350 { animation-delay: 4.2s; }
+.c351 { animation-delay: 4.212s; }
+.c352 { animation-delay: 4.224s; }
+.c353 { animation-delay: 4.236s; }
+.c354 { animation-delay: 4.248s; }
+.c355 { animation-delay: 4.26s; }
+.c356 { animation-delay: 4.272s; }
+.c357 { animation-delay: 4.284s; }
+.c358 { animation-delay: 4.296s; }
+.c359 { animation-delay: 4.308s; }
+.c360 { animation-delay: 4.32s; }
+.c361 { animation-delay: 4.332s; }
+.c362 { animation-delay: 4.344s; }
+.c363 { animation-delay: 4.356s; }
+.c364 { animation-delay: 4.368s; }
+    }
+  </style>
+  <rect x="-1" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c0"><title>2025-08-24: level 0</title></rect>
+  <rect x="-1" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c1"><title>2025-08-31: level 0</title></rect>
+  <rect x="-1" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c2"><title>2025-09-07: level 0</title></rect>
+  <rect x="-1" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c3"><title>2025-09-14: level 0</title></rect>
+  <rect x="-1" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c4"><title>2025-09-21: level 0</title></rect>
+  <rect x="-1" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c5"><title>2025-09-28: level 0</title></rect>
+  <rect x="-1" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c6"><title>2025-10-05: level 0</title></rect>
+  <rect x="13" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c7"><title>2025-10-12: level 0</title></rect>
+  <rect x="13" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c8"><title>2025-10-19: level 0</title></rect>
+  <rect x="13" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c9"><title>2025-10-26: level 0</title></rect>
+  <rect x="13" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c10"><title>2025-11-02: level 0</title></rect>
+  <rect x="13" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c11"><title>2025-11-09: level 0</title></rect>
+  <rect x="13" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c12"><title>2025-11-16: level 0</title></rect>
+  <rect x="13" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c13"><title>2025-11-23: level 0</title></rect>
+  <rect x="27" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c14"><title>2025-11-30: level 0</title></rect>
+  <rect x="27" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c15"><title>2025-12-07: level 0</title></rect>
+  <rect x="27" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c16"><title>2025-12-14: level 0</title></rect>
+  <rect x="27" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c17"><title>2025-12-21: level 0</title></rect>
+  <rect x="27" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c18"><title>2025-12-28: level 0</title></rect>
+  <rect x="27" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c19"><title>2026-01-04: level 0</title></rect>
+  <rect x="27" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c20"><title>2026-01-11: level 0</title></rect>
+  <rect x="41" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c21"><title>2026-01-18: level 0</title></rect>
+  <rect x="41" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c22"><title>2026-01-25: level 0</title></rect>
+  <rect x="41" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c23"><title>2026-02-01: level 0</title></rect>
+  <rect x="41" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c24"><title>2026-02-08: level 0</title></rect>
+  <rect x="41" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c25"><title>2026-02-15: level 0</title></rect>
+  <rect x="41" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c26"><title>2026-02-22: level 0</title></rect>
+  <rect x="41" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c27"><title>2026-03-01: level 0</title></rect>
+  <rect x="55" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c28"><title>2026-03-08: level 0</title></rect>
+  <rect x="55" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c29"><title>2026-03-15: level 0</title></rect>
+  <rect x="55" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c30"><title>2026-03-22: level 0</title></rect>
+  <rect x="55" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c31"><title>2026-03-29: level 0</title></rect>
+  <rect x="55" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c32"><title>2026-04-05: level 0</title></rect>
+  <rect x="55" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c33"><title>2026-04-12: level 0</title></rect>
+  <rect x="55" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c34"><title>2026-04-19: level 0</title></rect>
+  <rect x="69" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c35"><title>2026-04-26: level 0</title></rect>
+  <rect x="69" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c36"><title>2026-05-03: level 0</title></rect>
+  <rect x="69" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c37"><title>2026-05-10: level 0</title></rect>
+  <rect x="69" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c38"><title>2026-05-17: level 0</title></rect>
+  <rect x="69" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c39"><title>2026-05-24: level 0</title></rect>
+  <rect x="69" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c40"><title>2026-05-31: level 0</title></rect>
+  <rect x="69" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c41"><title>2026-06-07: level 0</title></rect>
+  <rect x="83" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c42"><title>2026-06-14: level 0</title></rect>
+  <rect x="83" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c43"><title>2026-06-21: level 0</title></rect>
+  <rect x="83" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c44"><title>2026-06-28: level 0</title></rect>
+  <rect x="83" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c45"><title>2026-07-05: level 0</title></rect>
+  <rect x="83" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c46"><title>2026-07-12: level 0</title></rect>
+  <rect x="83" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c47"><title>2026-07-19: level 0</title></rect>
+  <rect x="83" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c48"><title>2026-07-26: level 0</title></rect>
+  <rect x="97" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c49"><title>2026-08-02: level 0</title></rect>
+  <rect x="97" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c50"><title>2026-08-09: level 0</title></rect>
+  <rect x="97" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c51"><title>2026-08-16: level 0</title></rect>
+  <rect x="97" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c52"><title>2026-08-23: level 0</title></rect>
+  <rect x="97" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c53"><title>2025-08-25: level 0</title></rect>
+  <rect x="97" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c54"><title>2025-09-01: level 0</title></rect>
+  <rect x="97" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c55"><title>2025-09-08: level 0</title></rect>
+  <rect x="111" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c56"><title>2025-09-15: level 0</title></rect>
+  <rect x="111" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c57"><title>2025-09-22: level 0</title></rect>
+  <rect x="111" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c58"><title>2025-09-29: level 0</title></rect>
+  <rect x="111" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c59"><title>2025-10-06: level 0</title></rect>
+  <rect x="111" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c60"><title>2025-10-13: level 0</title></rect>
+  <rect x="111" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c61"><title>2025-10-20: level 0</title></rect>
+  <rect x="111" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c62"><title>2025-10-27: level 0</title></rect>
+  <rect x="125" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c63"><title>2025-11-03: level 0</title></rect>
+  <rect x="125" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c64"><title>2025-11-10: level 0</title></rect>
+  <rect x="125" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c65"><title>2025-11-17: level 0</title></rect>
+  <rect x="125" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c66"><title>2025-11-24: level 0</title></rect>
+  <rect x="125" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c67"><title>2025-12-01: level 0</title></rect>
+  <rect x="125" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c68"><title>2025-12-08: level 0</title></rect>
+  <rect x="125" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c69"><title>2025-12-15: level 0</title></rect>
+  <rect x="139" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c70"><title>2025-12-22: level 0</title></rect>
+  <rect x="139" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c71"><title>2025-12-29: level 0</title></rect>
+  <rect x="139" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c72"><title>2026-01-05: level 0</title></rect>
+  <rect x="139" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c73"><title>2026-01-12: level 0</title></rect>
+  <rect x="139" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c74"><title>2026-01-19: level 0</title></rect>
+  <rect x="139" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c75"><title>2026-01-26: level 0</title></rect>
+  <rect x="139" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c76"><title>2026-02-02: level 0</title></rect>
+  <rect x="153" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c77"><title>2026-02-09: level 0</title></rect>
+  <rect x="153" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c78"><title>2026-02-16: level 0</title></rect>
+  <rect x="153" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c79"><title>2026-02-23: level 0</title></rect>
+  <rect x="153" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c80"><title>2026-03-02: level 0</title></rect>
+  <rect x="153" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c81"><title>2026-03-09: level 0</title></rect>
+  <rect x="153" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c82"><title>2026-03-16: level 0</title></rect>
+  <rect x="153" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c83"><title>2026-03-23: level 0</title></rect>
+  <rect x="167" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c84"><title>2026-03-30: level 0</title></rect>
+  <rect x="167" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c85"><title>2026-04-06: level 0</title></rect>
+  <rect x="167" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c86"><title>2026-04-13: level 0</title></rect>
+  <rect x="167" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c87"><title>2026-04-20: level 0</title></rect>
+  <rect x="167" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c88"><title>2026-04-27: level 0</title></rect>
+  <rect x="167" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c89"><title>2026-05-04: level 0</title></rect>
+  <rect x="167" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c90"><title>2026-05-11: level 0</title></rect>
+  <rect x="181" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c91"><title>2026-05-18: level 0</title></rect>
+  <rect x="181" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c92"><title>2026-05-25: level 0</title></rect>
+  <rect x="181" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c93"><title>2026-06-01: level 0</title></rect>
+  <rect x="181" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c94"><title>2026-06-08: level 0</title></rect>
+  <rect x="181" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c95"><title>2026-06-15: level 0</title></rect>
+  <rect x="181" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c96"><title>2026-06-22: level 0</title></rect>
+  <rect x="181" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c97"><title>2026-06-29: level 0</title></rect>
+  <rect x="195" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c98"><title>2026-07-06: level 0</title></rect>
+  <rect x="195" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c99"><title>2026-07-13: level 0</title></rect>
+  <rect x="195" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c100"><title>2026-07-20: level 0</title></rect>
+  <rect x="195" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c101"><title>2026-07-27: level 0</title></rect>
+  <rect x="195" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c102"><title>2026-08-03: level 0</title></rect>
+  <rect x="195" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c103"><title>2026-08-10: level 0</title></rect>
+  <rect x="195" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c104"><title>2026-08-17: level 0</title></rect>
+  <rect x="209" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c105"><title>2025-08-26: level 0</title></rect>
+  <rect x="209" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c106"><title>2025-09-02: level 0</title></rect>
+  <rect x="209" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c107"><title>2025-09-09: level 0</title></rect>
+  <rect x="209" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c108"><title>2025-09-16: level 0</title></rect>
+  <rect x="209" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c109"><title>2025-09-23: level 0</title></rect>
+  <rect x="209" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c110"><title>2025-09-30: level 0</title></rect>
+  <rect x="209" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c111"><title>2025-10-07: level 0</title></rect>
+  <rect x="223" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c112"><title>2025-10-14: level 0</title></rect>
+  <rect x="223" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c113"><title>2025-10-21: level 0</title></rect>
+  <rect x="223" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c114"><title>2025-10-28: level 0</title></rect>
+  <rect x="223" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c115"><title>2025-11-04: level 0</title></rect>
+  <rect x="223" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c116"><title>2025-11-11: level 0</title></rect>
+  <rect x="223" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c117"><title>2025-11-18: level 0</title></rect>
+  <rect x="223" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c118"><title>2025-11-25: level 0</title></rect>
+  <rect x="237" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c119"><title>2025-12-02: level 0</title></rect>
+  <rect x="237" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c120"><title>2025-12-09: level 0</title></rect>
+  <rect x="237" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c121"><title>2025-12-16: level 0</title></rect>
+  <rect x="237" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c122"><title>2025-12-23: level 0</title></rect>
+  <rect x="237" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c123"><title>2025-12-30: level 0</title></rect>
+  <rect x="237" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c124"><title>2026-01-06: level 0</title></rect>
+  <rect x="237" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c125"><title>2026-01-13: level 0</title></rect>
+  <rect x="251" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c126"><title>2026-01-20: level 0</title></rect>
+  <rect x="251" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c127"><title>2026-01-27: level 0</title></rect>
+  <rect x="251" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c128"><title>2026-02-03: level 0</title></rect>
+  <rect x="251" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c129"><title>2026-02-10: level 0</title></rect>
+  <rect x="251" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c130"><title>2026-02-17: level 0</title></rect>
+  <rect x="251" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c131"><title>2026-02-24: level 0</title></rect>
+  <rect x="251" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c132"><title>2026-03-03: level 0</title></rect>
+  <rect x="265" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c133"><title>2026-03-10: level 0</title></rect>
+  <rect x="265" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c134"><title>2026-03-17: level 0</title></rect>
+  <rect x="265" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c135"><title>2026-03-24: level 0</title></rect>
+  <rect x="265" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c136"><title>2026-03-31: level 0</title></rect>
+  <rect x="265" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c137"><title>2026-04-07: level 0</title></rect>
+  <rect x="265" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c138"><title>2026-04-14: level 0</title></rect>
+  <rect x="265" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c139"><title>2026-04-21: level 0</title></rect>
+  <rect x="279" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c140"><title>2026-04-28: level 0</title></rect>
+  <rect x="279" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c141"><title>2026-05-05: level 0</title></rect>
+  <rect x="279" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c142"><title>2026-05-12: level 0</title></rect>
+  <rect x="279" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c143"><title>2026-05-19: level 0</title></rect>
+  <rect x="279" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c144"><title>2026-05-26: level 0</title></rect>
+  <rect x="279" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c145"><title>2026-06-02: level 0</title></rect>
+  <rect x="279" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c146"><title>2026-06-09: level 0</title></rect>
+  <rect x="293" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c147"><title>2026-06-16: level 0</title></rect>
+  <rect x="293" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c148"><title>2026-06-23: level 0</title></rect>
+  <rect x="293" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c149"><title>2026-06-30: level 0</title></rect>
+  <rect x="293" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c150"><title>2026-07-07: level 0</title></rect>
+  <rect x="293" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c151"><title>2026-07-14: level 0</title></rect>
+  <rect x="293" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c152"><title>2026-07-21: level 0</title></rect>
+  <rect x="293" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c153"><title>2026-07-28: level 0</title></rect>
+  <rect x="307" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c154"><title>2026-08-04: level 0</title></rect>
+  <rect x="307" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c155"><title>2026-08-11: level 0</title></rect>
+  <rect x="307" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c156"><title>2026-08-18: level 0</title></rect>
+  <rect x="307" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c157"><title>2025-08-27: level 0</title></rect>
+  <rect x="307" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c158"><title>2025-09-03: level 0</title></rect>
+  <rect x="307" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c159"><title>2025-09-10: level 0</title></rect>
+  <rect x="307" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c160"><title>2025-09-17: level 0</title></rect>
+  <rect x="321" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c161"><title>2025-09-24: level 0</title></rect>
+  <rect x="321" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c162"><title>2025-10-01: level 0</title></rect>
+  <rect x="321" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c163"><title>2025-10-08: level 0</title></rect>
+  <rect x="321" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c164"><title>2025-10-15: level 0</title></rect>
+  <rect x="321" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c165"><title>2025-10-22: level 0</title></rect>
+  <rect x="321" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c166"><title>2025-10-29: level 0</title></rect>
+  <rect x="321" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c167"><title>2025-11-05: level 0</title></rect>
+  <rect x="335" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c168"><title>2025-11-12: level 0</title></rect>
+  <rect x="335" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c169"><title>2025-11-19: level 0</title></rect>
+  <rect x="335" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c170"><title>2025-11-26: level 0</title></rect>
+  <rect x="335" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c171"><title>2025-12-03: level 0</title></rect>
+  <rect x="335" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c172"><title>2025-12-10: level 0</title></rect>
+  <rect x="335" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c173"><title>2025-12-17: level 0</title></rect>
+  <rect x="335" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c174"><title>2025-12-24: level 0</title></rect>
+  <rect x="349" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c175"><title>2025-12-31: level 0</title></rect>
+  <rect x="349" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c176"><title>2026-01-07: level 0</title></rect>
+  <rect x="349" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c177"><title>2026-01-14: level 0</title></rect>
+  <rect x="349" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c178"><title>2026-01-21: level 0</title></rect>
+  <rect x="349" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c179"><title>2026-01-28: level 0</title></rect>
+  <rect x="349" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c180"><title>2026-02-04: level 0</title></rect>
+  <rect x="349" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c181"><title>2026-02-11: level 0</title></rect>
+  <rect x="363" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c182"><title>2026-02-18: level 0</title></rect>
+  <rect x="363" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c183"><title>2026-02-25: level 0</title></rect>
+  <rect x="363" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c184"><title>2026-03-04: level 0</title></rect>
+  <rect x="363" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c185"><title>2026-03-11: level 0</title></rect>
+  <rect x="363" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c186"><title>2026-03-18: level 0</title></rect>
+  <rect x="363" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c187"><title>2026-03-25: level 0</title></rect>
+  <rect x="363" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c188"><title>2026-04-01: level 0</title></rect>
+  <rect x="377" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c189"><title>2026-04-08: level 0</title></rect>
+  <rect x="377" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c190"><title>2026-04-15: level 0</title></rect>
+  <rect x="377" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c191"><title>2026-04-22: level 0</title></rect>
+  <rect x="377" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c192"><title>2026-04-29: level 0</title></rect>
+  <rect x="377" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c193"><title>2026-05-06: level 0</title></rect>
+  <rect x="377" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c194"><title>2026-05-13: level 0</title></rect>
+  <rect x="377" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c195"><title>2026-05-20: level 0</title></rect>
+  <rect x="391" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c196"><title>2026-05-27: level 0</title></rect>
+  <rect x="391" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c197"><title>2026-06-03: level 0</title></rect>
+  <rect x="391" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c198"><title>2026-06-10: level 0</title></rect>
+  <rect x="391" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c199"><title>2026-06-17: level 0</title></rect>
+  <rect x="391" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c200"><title>2026-06-24: level 0</title></rect>
+  <rect x="391" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c201"><title>2026-07-01: level 0</title></rect>
+  <rect x="391" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c202"><title>2026-07-08: level 0</title></rect>
+  <rect x="405" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c203"><title>2026-07-15: level 0</title></rect>
+  <rect x="405" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c204"><title>2026-07-22: level 0</title></rect>
+  <rect x="405" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c205"><title>2026-07-29: level 0</title></rect>
+  <rect x="405" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c206"><title>2026-08-05: level 0</title></rect>
+  <rect x="405" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c207"><title>2026-08-12: level 0</title></rect>
+  <rect x="405" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c208"><title>2026-08-19: level 0</title></rect>
+  <rect x="405" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c209"><title>2025-08-28: level 0</title></rect>
+  <rect x="419" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c210"><title>2025-09-04: level 0</title></rect>
+  <rect x="419" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c211"><title>2025-09-11: level 0</title></rect>
+  <rect x="419" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c212"><title>2025-09-18: level 0</title></rect>
+  <rect x="419" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c213"><title>2025-09-25: level 0</title></rect>
+  <rect x="419" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c214"><title>2025-10-02: level 0</title></rect>
+  <rect x="419" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c215"><title>2025-10-09: level 0</title></rect>
+  <rect x="419" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c216"><title>2025-10-16: level 0</title></rect>
+  <rect x="433" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c217"><title>2025-10-23: level 0</title></rect>
+  <rect x="433" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c218"><title>2025-10-30: level 0</title></rect>
+  <rect x="433" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c219"><title>2025-11-06: level 0</title></rect>
+  <rect x="433" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c220"><title>2025-11-13: level 0</title></rect>
+  <rect x="433" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c221"><title>2025-11-20: level 0</title></rect>
+  <rect x="433" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c222"><title>2025-11-27: level 0</title></rect>
+  <rect x="433" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c223"><title>2025-12-04: level 0</title></rect>
+  <rect x="447" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c224"><title>2025-12-11: level 0</title></rect>
+  <rect x="447" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c225"><title>2025-12-18: level 0</title></rect>
+  <rect x="447" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c226"><title>2025-12-25: level 0</title></rect>
+  <rect x="447" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c227"><title>2026-01-01: level 0</title></rect>
+  <rect x="447" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c228"><title>2026-01-08: level 0</title></rect>
+  <rect x="447" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c229"><title>2026-01-15: level 0</title></rect>
+  <rect x="447" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c230"><title>2026-01-22: level 0</title></rect>
+  <rect x="461" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c231"><title>2026-01-29: level 0</title></rect>
+  <rect x="461" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c232"><title>2026-02-05: level 0</title></rect>
+  <rect x="461" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c233"><title>2026-02-12: level 0</title></rect>
+  <rect x="461" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c234"><title>2026-02-19: level 0</title></rect>
+  <rect x="461" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c235"><title>2026-02-26: level 0</title></rect>
+  <rect x="461" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c236"><title>2026-03-05: level 0</title></rect>
+  <rect x="461" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c237"><title>2026-03-12: level 0</title></rect>
+  <rect x="475" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c238"><title>2026-03-19: level 0</title></rect>
+  <rect x="475" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c239"><title>2026-03-26: level 0</title></rect>
+  <rect x="475" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c240"><title>2026-04-02: level 0</title></rect>
+  <rect x="475" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c241"><title>2026-04-09: level 0</title></rect>
+  <rect x="475" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c242"><title>2026-04-16: level 0</title></rect>
+  <rect x="475" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c243"><title>2026-04-23: level 0</title></rect>
+  <rect x="475" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c244"><title>2026-04-30: level 0</title></rect>
+  <rect x="489" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c245"><title>2026-05-07: level 0</title></rect>
+  <rect x="489" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c246"><title>2026-05-14: level 0</title></rect>
+  <rect x="489" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c247"><title>2026-05-21: level 0</title></rect>
+  <rect x="489" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c248"><title>2026-05-28: level 0</title></rect>
+  <rect x="489" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c249"><title>2026-06-04: level 0</title></rect>
+  <rect x="489" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c250"><title>2026-06-11: level 0</title></rect>
+  <rect x="489" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c251"><title>2026-06-18: level 0</title></rect>
+  <rect x="503" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c252"><title>2026-06-25: level 0</title></rect>
+  <rect x="503" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c253"><title>2026-07-02: level 0</title></rect>
+  <rect x="503" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c254"><title>2026-07-09: level 0</title></rect>
+  <rect x="503" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c255"><title>2026-07-16: level 0</title></rect>
+  <rect x="503" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c256"><title>2026-07-23: level 0</title></rect>
+  <rect x="503" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c257"><title>2026-07-30: level 0</title></rect>
+  <rect x="503" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c258"><title>2026-08-06: level 0</title></rect>
+  <rect x="517" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c259"><title>2026-08-13: level 0</title></rect>
+  <rect x="517" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c260"><title>2026-08-20: level 0</title></rect>
+  <rect x="517" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c261"><title>2025-08-29: level 0</title></rect>
+  <rect x="517" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c262"><title>2025-09-05: level 0</title></rect>
+  <rect x="517" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c263"><title>2025-09-12: level 0</title></rect>
+  <rect x="517" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c264"><title>2025-09-19: level 0</title></rect>
+  <rect x="517" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c265"><title>2025-09-26: level 0</title></rect>
+  <rect x="531" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c266"><title>2025-10-03: level 0</title></rect>
+  <rect x="531" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c267"><title>2025-10-10: level 0</title></rect>
+  <rect x="531" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c268"><title>2025-10-17: level 0</title></rect>
+  <rect x="531" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c269"><title>2025-10-24: level 0</title></rect>
+  <rect x="531" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c270"><title>2025-10-31: level 0</title></rect>
+  <rect x="531" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c271"><title>2025-11-07: level 0</title></rect>
+  <rect x="531" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c272"><title>2025-11-14: level 0</title></rect>
+  <rect x="545" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c273"><title>2025-11-21: level 0</title></rect>
+  <rect x="545" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c274"><title>2025-11-28: level 0</title></rect>
+  <rect x="545" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c275"><title>2025-12-05: level 0</title></rect>
+  <rect x="545" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c276"><title>2025-12-12: level 0</title></rect>
+  <rect x="545" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c277"><title>2025-12-19: level 0</title></rect>
+  <rect x="545" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c278"><title>2025-12-26: level 0</title></rect>
+  <rect x="545" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c279"><title>2026-01-02: level 0</title></rect>
+  <rect x="559" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c280"><title>2026-01-09: level 0</title></rect>
+  <rect x="559" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c281"><title>2026-01-16: level 0</title></rect>
+  <rect x="559" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c282"><title>2026-01-23: level 0</title></rect>
+  <rect x="559" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c283"><title>2026-01-30: level 0</title></rect>
+  <rect x="559" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c284"><title>2026-02-06: level 0</title></rect>
+  <rect x="559" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c285"><title>2026-02-13: level 0</title></rect>
+  <rect x="559" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c286"><title>2026-02-20: level 0</title></rect>
+  <rect x="573" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c287"><title>2026-02-27: level 0</title></rect>
+  <rect x="573" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c288"><title>2026-03-06: level 0</title></rect>
+  <rect x="573" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c289"><title>2026-03-13: level 0</title></rect>
+  <rect x="573" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c290"><title>2026-03-20: level 0</title></rect>
+  <rect x="573" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c291"><title>2026-03-27: level 0</title></rect>
+  <rect x="573" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c292"><title>2026-04-03: level 0</title></rect>
+  <rect x="573" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c293"><title>2026-04-10: level 0</title></rect>
+  <rect x="587" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c294"><title>2026-04-17: level 0</title></rect>
+  <rect x="587" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c295"><title>2026-04-24: level 0</title></rect>
+  <rect x="587" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c296"><title>2026-05-01: level 0</title></rect>
+  <rect x="587" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c297"><title>2026-05-08: level 0</title></rect>
+  <rect x="587" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c298"><title>2026-05-15: level 0</title></rect>
+  <rect x="587" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c299"><title>2026-05-22: level 0</title></rect>
+  <rect x="587" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c300"><title>2026-05-29: level 0</title></rect>
+  <rect x="601" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c301"><title>2026-06-05: level 0</title></rect>
+  <rect x="601" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c302"><title>2026-06-12: level 0</title></rect>
+  <rect x="601" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c303"><title>2026-06-19: level 0</title></rect>
+  <rect x="601" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c304"><title>2026-06-26: level 0</title></rect>
+  <rect x="601" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c305"><title>2026-07-03: level 0</title></rect>
+  <rect x="601" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c306"><title>2026-07-10: level 0</title></rect>
+  <rect x="601" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c307"><title>2026-07-17: level 0</title></rect>
+  <rect x="615" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c308"><title>2026-07-24: level 0</title></rect>
+  <rect x="615" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c309"><title>2026-07-31: level 0</title></rect>
+  <rect x="615" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c310"><title>2026-08-07: level 0</title></rect>
+  <rect x="615" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c311"><title>2026-08-14: level 0</title></rect>
+  <rect x="615" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c312"><title>2026-08-21: level 0</title></rect>
+  <rect x="615" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c313"><title>2025-08-30: level 0</title></rect>
+  <rect x="615" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c314"><title>2025-09-06: level 0</title></rect>
+  <rect x="629" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c315"><title>2025-09-13: level 0</title></rect>
+  <rect x="629" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c316"><title>2025-09-20: level 0</title></rect>
+  <rect x="629" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c317"><title>2025-09-27: level 0</title></rect>
+  <rect x="629" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c318"><title>2025-10-04: level 0</title></rect>
+  <rect x="629" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c319"><title>2025-10-11: level 0</title></rect>
+  <rect x="629" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c320"><title>2025-10-18: level 0</title></rect>
+  <rect x="629" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c321"><title>2025-10-25: level 0</title></rect>
+  <rect x="643" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c322"><title>2025-11-01: level 0</title></rect>
+  <rect x="643" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c323"><title>2025-11-08: level 0</title></rect>
+  <rect x="643" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c324"><title>2025-11-15: level 0</title></rect>
+  <rect x="643" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c325"><title>2025-11-22: level 0</title></rect>
+  <rect x="643" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c326"><title>2025-11-29: level 0</title></rect>
+  <rect x="643" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c327"><title>2025-12-06: level 0</title></rect>
+  <rect x="643" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c328"><title>2025-12-13: level 0</title></rect>
+  <rect x="657" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c329"><title>2025-12-20: level 0</title></rect>
+  <rect x="657" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c330"><title>2025-12-27: level 0</title></rect>
+  <rect x="657" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c331"><title>2026-01-03: level 0</title></rect>
+  <rect x="657" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c332"><title>2026-01-10: level 0</title></rect>
+  <rect x="657" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c333"><title>2026-01-17: level 0</title></rect>
+  <rect x="657" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c334"><title>2026-01-24: level 0</title></rect>
+  <rect x="657" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c335"><title>2026-01-31: level 0</title></rect>
+  <rect x="671" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c336"><title>2026-02-07: level 0</title></rect>
+  <rect x="671" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c337"><title>2026-02-14: level 0</title></rect>
+  <rect x="671" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c338"><title>2026-02-21: level 0</title></rect>
+  <rect x="671" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c339"><title>2026-02-28: level 0</title></rect>
+  <rect x="671" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c340"><title>2026-03-07: level 0</title></rect>
+  <rect x="671" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c341"><title>2026-03-14: level 0</title></rect>
+  <rect x="671" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c342"><title>2026-03-21: level 0</title></rect>
+  <rect x="685" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c343"><title>2026-03-28: level 0</title></rect>
+  <rect x="685" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c344"><title>2026-04-04: level 0</title></rect>
+  <rect x="685" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c345"><title>2026-04-11: level 0</title></rect>
+  <rect x="685" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c346"><title>2026-04-18: level 0</title></rect>
+  <rect x="685" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c347"><title>2026-04-25: level 0</title></rect>
+  <rect x="685" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c348"><title>2026-05-02: level 0</title></rect>
+  <rect x="685" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c349"><title>2026-05-09: level 0</title></rect>
+  <rect x="699" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c350"><title>2026-05-16: level 0</title></rect>
+  <rect x="699" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c351"><title>2026-05-23: level 0</title></rect>
+  <rect x="699" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c352"><title>2026-05-30: level 0</title></rect>
+  <rect x="699" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c353"><title>2026-06-06: level 0</title></rect>
+  <rect x="699" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c354"><title>2026-06-13: level 0</title></rect>
+  <rect x="699" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c355"><title>2026-06-20: level 0</title></rect>
+  <rect x="699" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c356"><title>2026-06-27: level 0</title></rect>
+  <rect x="713" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c357"><title>2026-07-04: level 0</title></rect>
+  <rect x="713" y="13" width="11" height="11" rx="2" fill="#161b22" class="cell c358"><title>2026-07-11: level 0</title></rect>
+  <rect x="713" y="27" width="11" height="11" rx="2" fill="#161b22" class="cell c359"><title>2026-07-18: level 0</title></rect>
+  <rect x="713" y="41" width="11" height="11" rx="2" fill="#161b22" class="cell c360"><title>2026-07-25: level 0</title></rect>
+  <rect x="713" y="55" width="11" height="11" rx="2" fill="#161b22" class="cell c361"><title>2026-08-01: level 0</title></rect>
+  <rect x="713" y="69" width="11" height="11" rx="2" fill="#161b22" class="cell c362"><title>2026-08-08: level 0</title></rect>
+  <rect x="713" y="83" width="11" height="11" rx="2" fill="#161b22" class="cell c363"><title>2026-08-15: level 0</title></rect>
+  <rect x="727" y="-1" width="11" height="11" rx="2" fill="#161b22" class="cell c364"><title>2026-08-22: level 0</title></rect>
+</svg>

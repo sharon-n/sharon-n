@@ -7,7 +7,7 @@ SVGs but still runs CSS keyframes / SMIL, so the animation is done purely in CSS
 
 Usage:
     pip install pillow --break-system-packages
-    python generate_ascii.py rrrrrrrr.png avi-ascii.svg
+    python generate_ascii.py your_photo.jpg avi-ascii.svg
 
 Then embed the output in your README with:
     <img src="avi-ascii.svg" width="320" alt="ascii portrait"/>
@@ -74,14 +74,22 @@ def build_svg(rows, row_delay=0.05):
       fill: #7ee787;
       white-space: pre;
     }}
+    /* Visible by default — safe fallback if the animation doesn't
+       run (image proxies, reduced-motion settings, some renderers).
+       The typing effect below is a progressive enhancement only. */
     .row {{
-      opacity: 0;
-      animation: fadeIn 0.3s ease-out forwards;
+      opacity: 1;
     }}
-    @keyframes fadeIn {{
-      to {{ opacity: 1; }}
+    @media (prefers-reduced-motion: no-preference) {{
+      .row {{
+        opacity: 0;
+        animation: fadeIn 0.3s ease-out forwards;
+      }}
+      @keyframes fadeIn {{
+        to {{ opacity: 1; }}
+      }}
+      {chr(10).join(style_rules)}
     }}
-    {chr(10).join(style_rules)}
   </style>
 {chr(10).join(text_elements)}
 </svg>'''

@@ -80,15 +80,24 @@ def build_svg(days):
     svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
   <style>
     svg {{ background: #0d1117; }}
+    /* Visible by default — this is the safe fallback if animations
+       don't run (image proxies, reduced-motion settings, some
+       renderers). The animation below is a progressive enhancement
+       only, never required for the content to show up. */
     .cell {{
-      opacity: 0;
-      transform: translate(-6px, -6px);
-      animation: slideIn 0.35s ease-out forwards;
+      opacity: 1;
     }}
-    @keyframes slideIn {{
-      to {{ opacity: 1; transform: translate(0, 0); }}
+    @media (prefers-reduced-motion: no-preference) {{
+      .cell {{
+        opacity: 0;
+        transform: translate(-6px, -6px);
+        animation: slideIn 0.35s ease-out forwards;
+      }}
+      @keyframes slideIn {{
+        to {{ opacity: 1; transform: translate(0, 0); }}
+      }}
+      {chr(10).join(style_rules)}
     }}
-    {chr(10).join(style_rules)}
   </style>
 {chr(10).join(rects)}
 </svg>'''
