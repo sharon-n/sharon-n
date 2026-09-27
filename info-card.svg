@@ -62,13 +62,13 @@
     <text y="30" x="140" class="line l2 value">Sharon N.</text>
 
     <text y="55" class="line l3 label">Role</text>
-    <text y="55" x="140" class="line l3 value">Customer Support &amp; Network Ops · Flink Technologies</text>
+    <text y="55" x="140" class="line l3 value">Customer Support &amp; Network Ops ·</text>
 
     <text y="80" class="line l4 label">Education</text>
     <text y="80" x="140" class="line l4 value">BBIT, JKUAT (2024)</text>
 
     <text y="105" class="line l5 label">Certification</text>
-    <text y="105" x="140" class="line l5 value">CPA Kenya — Intermediate Level, KASNEB</text>
+    <text y="105" x="140" class="line l5 value">CPA Kenya — Advanced Level, KASNEB</text>
 
     <text y="130" class="line l6 label">Stack</text>
     <text y="130" x="140" class="line l6 value">Python · SQL · Excel · Network Monitoring (RADMAN, SMART OLT)</text>
